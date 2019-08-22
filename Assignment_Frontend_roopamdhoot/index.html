@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+     <link rel="stylesheet" href="./index.css">
+     <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+     <script src="index.js" ></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="go "><img src="./logo.gif" width="80px;">
+    <p >Location guru</p>
+    </div>
+    <table>
+                <tr>
+                 <td>
+                   <strong>  <center id="hh">User Details</center></strong>
+                     <hr>
+                     <form onsubmit="event.preventDefault();onformsubmit()" autocomplete="off">
+                        <div class="form-row">
+                                    <div class="form-group col-md-3">
+                                        <input type="text" class="form-control" name="firstname"id="firstname" placeholder="First name" maxlength="20" size="10"><lable id="fnameerror" ></lable>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <input type="text" class="form-control em" id="contact" placeholder="contact number" maxlength="13"  ><lable id="cnameerror" ></lable>
+                                    </div>
+                                    <div >
+                                        <textarea placeholder="Address" cols="80" rows="3" class="form-control col-md-12"class="tt" id="tarea"></textarea><lable id="tnameerror" ></lable>
+                                    </div>
+                               </div>
+                                  <div class="form-row">
+                                        <div class="form-group col-md-3">
+                                             <input type="text" class="form-control" id="lastname" placeholder="Last name" ><lable id="lnameerror" ></lable>
+                                        </div>
+                                        <div class="form-group col-md-3">
+                                            <input type="text" class="form-control" style="margin-top:8px;" id="email" placeholder="Email ID"><lable id="enameerror" ></lable> 
+                                        </div>
+                                       
+                                    </div>
+                                    <div><center>
+                                    <input type="submit"class="btn btn-success " style="width: 90px"  value="Add"></center>
+                                   </div>
+                        </form>
+                                      </td>
+                                   <br>
+            <table class="list" id="user"><hr width="100%">
+                <thead>
+                    <tr>
+                        <th><center>First name</center></th>
+                        <th><center>Last name</center></th>
+                        <th><center>contact Number</center></th>
+                        <th><center>Email</center></th>
+                        <th>Action</th>
+                    </tr>
+                 </thead>
+                    <tbody>
+                           
+                    </tbody>
+                </table>
+               </div>    
+            </div>
+        </tr>
+    </table>
+</body>
+</html>

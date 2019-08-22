@@ -1,0 +1,84 @@
+body > table{
+    width:100%;
+}
+
+table{
+    border-collapse: collapse;
+     }
+table.list{
+    width:100%;
+    }
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 9px;
+    padding-right: 150px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color:#ccc;
+    }
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color:greenyellow;
+    color: #000;
+    padding: 14px 29px ;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.go{
+    background-color: skyblue;
+    padding-bottom: 60px;
+    width:100%;
+}
+.go p{
+    font-family: 'Exo', sans-serif;
+    font-size: 25px;
+    color:black;
+    float: right;
+    margin-right:1100px;
+}
+.tt{
+margin-right:-300px;
+padding-right:200px
+    }
+.em{
+margin:2px;
+}
+#fnameerror {
+    color:red
+}
+#cnameerror{
+    color:red;
+}
+#tarea{
+    margin-left:1px
+}
+#lnameerror{
+    color:red;
+}
+#tnameerror{
+    color:red;
+}
+#hh{
+    font-size: 20px;
+}
+.ip{
+    width: 90px;
+}
